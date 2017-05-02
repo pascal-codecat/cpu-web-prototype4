@@ -1,0 +1,462 @@
+  html{
+    font-size: 16px;
+  }
+
+  body{
+    background-color: #eee;
+  }
+
+
+
+/*====== HEADER ======*/
+
+  .list-header{
+    list-style: none;
+  }
+
+  .brandname{
+    position: absolute;
+    left: 7%;
+    top: 25%;
+  }
+
+
+  .list-header span{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .list-header a{
+    text-decoration: none;
+  }
+
+  .list-header span:first-child{
+    color: #ff7b11;
+  }
+
+  .header{
+    z-index: 1;
+    position: fixed;
+    background-color: #193745;
+    width: 100%;
+    height: 5rem;
+  }
+
+  .searchbar{
+    position: absolute;
+    display: inline-block;
+    margin-right: -8.5rem;
+    color: #fff;
+    right: 50%;
+    top: 35%;
+  }
+
+  input[type=search] {
+    border-radius: 12px;
+    border: 2px solid #555;
+    width: 17rem;
+
+    -webkit-appearance: none;
+  }
+/*====== HEADER ======*/
+
+
+
+/*====== WELCOME-SECTION ======*/
+
+  .welcome{
+    position: relative;
+  }
+
+  .jumbotron{
+    background-color: #97a0a4;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+  }
+
+  .welcome-post::before{
+    content: "";
+    padding-top: calc(100%/1.628);
+    display: block;
+  }
+
+
+  .welcome-post{
+    border-radius: 5px;
+    position: relative;
+    background-color: inherit;
+  }
+
+  .welcome-post-content::before{
+    content: "";
+    filter: brightness(70%) contrast(1.2) saturate(2.1) blur(3px);
+    position: absolute;
+    background-image: url(../img/samuel-zeller-77624.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .welcome-post-content > h1{
+    box-shadow:2px 2px 2px 2px rgba(245, 245, 245, 0.34);
+    display: block;
+    position: absolute;
+    background-color: #ff1111;
+    left: 5%;
+    top: 12%;
+    color: white;
+    font-family: 'Monoton', cursive;
+    font-size: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    transform: skewY(-11deg);
+    border: 8px solid #fff;
+    filter: brightness(100%);
+  }
+
+  .welcome-post-content > h2{
+    box-shadow:2px 2px 2px 2px rgba(245, 245, 245, 0.34);
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    left: 10%;
+    top: 33.2%;
+    color: #111;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    transform: skewY(-11deg);
+    /*border: 8px solid #fff;*/
+    filter: brightness(100%);
+    /*border-left: 0px;*/
+  }
+
+  .welcome-post-content > h2:last-of-type{
+    top: 41.2%;
+    left: 5%;
+  }
+
+  .welcome-post-content > img{
+    filter: brightness(80%);
+    position: absolute;
+    width: 45rem;
+    height: auto;
+    top: 18%;
+    left: 38%;
+  }
+
+  /*font-family: 'Righteous', cursive;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Faster One', cursive;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee', cursive;
+  font-family: 'Monofett', cursive; 0
+  font-family: 'Overlock SC', cursive; 0
+  font-family: 'Sonsie One', cursive; 0
+  font-family: 'Plaster', cursive; 0*/
+
+/*====== WELCOME-SECTION ======*/
+
+
+
+/*====== USER-WELCOME ======*/
+
+.user-welcome{
+  position: relative;
+  padding: 2rem 0;
+  background-color: #686f73;
+  margin-bottom: 5.5rem;
+  text-align: center;
+}
+
+.user-welcome h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.user-welcome h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #bebebe;
+}
+
+.user-welcome span:first-child{
+  color: #ff7b11;
+}
+
+/*====== USER-WELCOME ======*/
+
+
+
+/*====== GUIDE-SECTION ======*/
+
+  .guide-post::before{
+  	content: "";
+  	display: block;
+    padding-top: calc(100%/1.628);
+  }
+
+  .guide-post{
+    background-color: #ccc;
+    border-radius: 3px;
+    margin: 0 1.5%;
+    width: 98%;
+  }
+  /*col-sm*/
+  @media (min-width: 768px) {
+    .guide-post{
+      width: 47%;
+    }
+  }
+  /*col-md*/
+  @media (min-width: 992px) {}
+
+  /*col-lg*/
+  @media (min-width: 1200px) {
+    .guide-post{
+      width: 30.33333333%;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .guide-post-content::before{
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .guide-post-content{
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    border-radius: 3px;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .guide-post-content > img{
+    filter: brightness(100%);
+    position: absolute;
+    width: 10rem;
+    height: auto;
+    top: 50%;
+    left: 48%;
+  }
+
+  .guide2 > img{
+    width: 25rem;
+    top: -33%;
+    left: -8%;
+  }
+
+  .guide-post-content > h1{
+    box-shadow:2px 2px 2px 2px rgba(245, 245, 245, 0.34);
+    display: block;
+    position: absolute;
+    background-color: #ff7b11;
+    min-width: 20rem;
+    left: 4%;
+    top: 23%;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    transform: skewY(-11deg);
+    border: 5px solid #fff;
+    filter: brightness(100%);
+  }
+
+  .guide2 > h1{
+    background-color: #ffde11;
+  }
+
+  .guide3 > h1{
+    background-color: #1132ff;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+
+  .guide4 > h1{
+    background-color: #8911ff;
+    left: 2%;
+    top: 15%;
+  }
+
+  .guide5 > h1{
+    background-color: #3d3e41;
+    top: 15%;
+  }
+
+  .guide6 > h1{
+    background-color: #9daaa8;
+    top: 15%;
+  }
+
+  .guide-post-content > h2:last-of-type{
+    top: 41.2%;
+    left: 5%;
+  }
+  /*::before for apllying filter only on backgroundpicture*/
+  .guide1::before{
+    background-image: url(../img/alex-jodoin-235164.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .guide2::before{
+    background-image: url(../img/dennis-kummer-171041.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .guide3::before{
+    background-image: url(../img/shannon-mcinnes-239960.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .guide4::before{
+    background-image: url(../img/ishan-seefromthesky-231908.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .guide5::before{
+    background-image: url(../img/riccardo-pelati-221261.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .guide6::before{
+    background-image: url(../img/kimon-maritz-193428.jpg);
+    filter: brightness(70%) saturate(1.5);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+/*====== GUIDE-SECTION ======*/
+
+
+
+/*====== FOOTER ======*/
+
+  .footer{
+    margin-top: 2rem;
+    background-color: #364b54;
+    width: 100%;
+    list-style: none;
+    /*min-height: 12rem;*/
+  }
+
+  .list-footer p{
+    color: #bebebe;
+    float: right;
+  }
+
+  .feedback{
+    list-style: none;
+    padding-top: 2rem;
+    text-align: center;
+    color: #bebebe;
+  }
+
+
+/*====== FOOTER ======*/
+
+
+
+/*====== WELCOME-PC-GUIDE-SECTION ======*/
+  .index-pc-guide{
+    position: relative;
+  }
+
+  .index-pc-guide img{
+    display: inline-block;
+    filter: brightness(80%);
+    position: static;
+    width: 30rem;
+    height: auto;
+    top: 0%;
+    left: 0%;
+  }
+
+  .index-pc-guide ul{
+    display: inline-block;
+    margin: 10rem;
+  }
+
+/*::before for apllying filter only on backgroundpicture*/
+  .about-welcome{
+    position: relative;
+    height: 30rem;
+  }
+
+  .about-welcome::before {
+    content: "";
+    filter: brightness(70%) contrast(1.2) saturate(2.1) blur(3px);
+    position: absolute;
+    background-image: url(../img/samuel-zeller-77624.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .welcome-about-post{
+    border-radius: 0;
+    position: relative;
+    background-color: transparent;
+  }
+
+  .welcome-about-img{
+    filter: brightness(80%);
+    position: absolute;
+    width: 45rem;
+    height: auto;
+    top: 12%;
+    left: 20%;
+  }
+
+/*====== WELCOME-ABOUT-SECTION ======*/
+
+
+
+/*====== GUIDE_ABOUT ======*/
+
+  .guide-about1{
+    position: relative;
+    height: 20rem;
+    background-color: blue;
+  }
+
+  .user-welcome-about{
+    height: 12rem;
+    margin: 0;
+  }
+
+/*====== GUIDE_ABOUT ======*/
